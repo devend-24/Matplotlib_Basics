@@ -1,13 +1,16 @@
-# 📊 Learning Matplotlib Basics: Line and Bar Charts
+# 📊 Learning Matplotlib Basics: Line, Bar, Pie Charts, Stack Plots, and Histograms
 
 ## 🎯 Introduction
 
-Welcome to my **Matplotlib Basics** repository! This project showcases my journey learning **line charts** and **bar charts** using Matplotlib 📈. The examples are beginner-friendly and focus on fundamental plotting techniques in Python. 
+Welcome to my **Matplotlib Basics** repository! This project showcases my journey learning **line charts**, **bar charts**, **pie charts**, **stack plots**, and **histograms** using Matplotlib 📈. The examples are beginner-friendly and focus on fundamental plotting techniques in Python.
 
 ## 📂 Contents
 
-- **[`line_chart.ipynb`](Matplotlib.ipynb)**: Learn how to create and customize simple line charts.
-- **[`bar_chart.ipynb`](Bar_charts.ipynb)**: Discover how to build and style basic bar charts.
+-  Learn how to create and customize simple line charts.
+-  Discover how to build and style basic bar charts.
+-  Explore how to create pie charts with custom labels, colors, and explode segments.
+-  Understand how to visualize data trends using stack plots for better cumulative comparisons.
+-  Dive into histograms to analyze frequency distributions.
 
 ## 🧠 Topics Covered
 
@@ -20,6 +23,21 @@ Welcome to my **Matplotlib Basics** repository! This project showcases my journe
 - Creating vertical bar charts with `plt.bar()` and horizontal bars with `plt.barh()`
 - Customizing bar colors, sizes, and adding data labels
 
+### 🟢 Pie Charts
+- Building pie charts with `plt.pie()`
+- Customizing segments with explode, labels, and colors
+- Adding percentage display and understanding pie chart best practices
+
+### 🔵 Stack Plots
+- Creating stack plots with `plt.stackplot()`
+- Visualizing cumulative data trends
+- Adjusting colors, labels, and transparency for clarity
+
+### 🟣 Histograms
+- Plotting histograms using `plt.hist()`
+- Analyzing frequency distributions
+- Customizing bin size, color, and adding density lines
+
 ## 🚀 Installation
 
 You’ll need Python 🐍 and Jupyter Notebook 📓 to run the examples. Install Matplotlib and Jupyter using the following:
@@ -30,12 +48,10 @@ pip install matplotlib notebook
 
 ## 🎉 Summary
 
-This repository is a reflection of my first steps into the world of data visualization with **Matplotlib**. As I grow my skills, I'll be adding more advanced plots and techniques. For now, feel free to explore, learn, and even contribute 🚀!
+This repository reflects my first steps into the world of data visualization with **Matplotlib**. As I grow my skills, I'll be adding more advanced plots and techniques. For now, feel free to explore, learn, and even contribute 🚀!
 
 ---
 
 ### 🌟 If you find this helpful, don’t forget to give it a ⭐!
 
 ---
-
-This interactive, emoji-enhanced `README` adds a touch of fun while maintaining all the necessary information for someone viewing your project on GitHub.
